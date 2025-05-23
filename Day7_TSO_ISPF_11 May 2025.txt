@@ -1,0 +1,167 @@
+RETP	Retrieve
+SHIFT + F12
+
+PRIMARY COMMANDS INSIDE A FILE
+CAPS ON
+SAVE
+COLS
+PROFILE
+X ALL:
+X "TSO"	FIRST OCCURENCE ROW IS GOING TO HIDE
+X 'TSO' ALL	:
+RECOVERY ON
+UNDO		
+TOP	OR M + F7
+BOTOOM	OR M + F8
+FIND COMMAND
+	F 'TSO'
+
+CHANGE COMMAND
+C 'TSO' 'HYD'  
+C 'TSO' 'HYD' ALL 
+
+CREATE "VENKATB.B20.FILE2" .ZF 	.ZL
+LABELS
+	.ZF :FROM 1ST LINE
+	.ZL	: TILL LAST TILE
+
+LINE COMMANDS INSIDE A FILE
+	UC
+	
+	UC2
+
+	UCC
+	UCC
+
+
+	LC	LOWER CASE
+
+
+	LC2
+
+	LCC
+	LCC
+
+	
+
+
+	))	
+	))	BLOCK RIGHT SHIFT
+
+
+	(	THE DATA TO LEFT SIDE
+
+
+	(3	COLUMNS LEFT
+
+	((
+
+
+	EXCLUDE 
+		X	EXCLUDE SINGLE LINE
+
+		X3	EXCLUDE 3 LINES
+
+		XX
+		XX	EXCLUDE BLOCK
+
+
+
+===================================
+ Scroll OPTIONS  ===> CSR/PAGE/HALF/NNN
+	NNN: Number /digit
+	PAGE:15 TO 16 ROWS
+	HALF: 7/8 ROWS UP/DOWN
+	CSR: CURSOR
+	NNN
+============================
+
+Here's a brief explanation of each TSO/ISPF primary command you listed, commonly used on the IBM mainframe:
+
+---
+
+### **1. CAPS ON**
+
+* **Description**: Converts all text you type to uppercase automatically.
+* **Usage**: Useful because many mainframe systems treat uppercase and lowercase differently, and many commands require uppercase.
+
+---
+
+### **2. SAVE**
+
+* **Description**: Saves the current changes in the editor (like Edit or View panels).
+* **Usage**: Use before exiting to ensure your edits are stored.
+
+---
+
+### **3. COLS**
+
+* **Description**: Toggles the display of column numbers at the top of the screen.
+* **Usage**: Helpful for identifying positions when working with fixed-length fields.
+
+---
+
+### **4. PROFILE**
+
+* **Description**: Displays or changes the current profile settings for your session.
+* **Usage**: Shows options like CAPS, NUMBER, HEX, etc., that control editor behavior.
+
+---
+
+### **5. X ALL**
+
+* **Description**: Excludes (hides) all lines from view in the dataset or member.
+* **Usage**: You can then include specific lines for focused editing.
+
+---
+
+### **6. X "TSO"**
+
+* **Description**: Excludes (hides) the first line containing the string "TSO".
+* **Usage**: Good for hiding unwanted lines matching specific content.
+
+---
+
+### **7. X 'TSO' ALL**
+
+* **Description**: Excludes all lines that contain the string 'TSO'.
+* **Usage**: Useful for temporarily filtering out multiple matching lines.
+
+---
+
+### **8. RECOVERY ON**
+
+* **Description**: Enables recovery for the edit session.
+* **Usage**: Ensures changes are recoverable in case of a session crash or unexpected logout.
+
+---
+
+### **9. UNDO**
+
+* **Description**: Reverses the most recent change(s) made during the editing session.
+* **Usage**: Helps to backtrack if you make a mistake.
+
+---
+
+### **10. TOP**
+
+* **Description**: Moves the cursor to the first line of the file.
+* **Usage**: Useful for quickly navigating large datasets.
+
+---
+
+### **11. BOTTOM**
+
+* **Description**: Moves the cursor to the last line of the file.
+* **Usage**: Saves time when you need to edit or check the end of the file.
+
+---
+
+### **12. FIND COMMAND (F 'TSO')**
+
+* **Description**: Searches for the string 'TSO' in the dataset/member.
+* **Usage**: The cursor jumps to the first match found.
+
+---
+
+Would you like a printable cheat sheet of these commands?

@@ -1,0 +1,81 @@
+Introduction to Mainframe
+What is Mainframe
+How Mainframe is different when we compare with Windows, Java
+Advantages of Mainframe
+Who are all using Mainframe Technology
+======================================================
+MVS,Z/OS
+DASD:DIRECT ACCESS STORAGE DEVICE, TAPE
+Volume:
+I can generate a conceptual image related to mainframe volumes, such as a visual representation of how datasets are organized within a volume or how storage management works. However, if you're looking for a specific technical diagram, official IBM documentation or mainframe manuals would be the best source
+
+
+SUBSYSTEM:
+In mainframe systems, a subsystem is a specialized service provider that performs specific functions within the operating environment. It operates independently but interacts with the mainframe's core system to manage workloads efficiently
+
+	DB2
+	CICS
+	IMS DB/DC
+	TSO	
+	JES2/JES3
+	- IMS (Information Management System) 
+	- CICS (Customer Information Control System) 
+	- DB2 – A relational database management system.
+
+EMULATOR
+	IT IS A SOFTWARE AND IT IS USED TO CONNECT TO MAINFRAME SERVER FROM OUR LAPTOPS(WINDOWS,MAC)
+	MOCHASOFT TN3270
+	VISTA TN3270
+	RUMBA 
+	view
+	PCOMM
+	QWS
+	
+
+	STEP1:DOWNLOAD ANY EMULATOR
+
+	STEP2:GATHER MAINFRAME ID ADDRESS, PORT NUMBER, MAINFRAME ID, PASSWORD
+			IP ADDRESS:157.173.107.61
+			PORT :23
+	STEP3:INSTALL THE EMULATOR
+
+	STEP4:CONFIGURE IP,PORT NUMBER IN EMULATOR
+
+TSO USER ID
+VENKATA
+
+VENKATB
+
+VENKATC
+
+VENKATD
+
+VENKATE
+
+- ISPF (Interactive System Productivity Facility)
+
+
+
+TSO (Time Sharing Option) is a component of IBM's z/OS operating system that allows multiple users to interact with the mainframe concurrently. It provides an interactive environment where users can execute commands, manage datasets, and submit batch jobs.
+Key Features of TSO:
+- Interactive Access – Users can log in and interact with the system in real-time.
+- Command Execution – Supports command-line operations for managing datasets and jobs.
+- Batch Job Submission – Allows users to submit and monitor batch jobs.
+- Integration with ISPF – Works alongside ISPF (Interactive System Productivity Facility), a menu-driven interface for easier navigation.
+TSO is essential for mainframe users, especially for system administrators and developers working with CICS, DB2, and IMS. You can find more details here. Let me know if you’d like a deeper dive into any specific aspect!
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

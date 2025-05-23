@@ -1,0 +1,111 @@
+Key words
+How to connect to Mainframe server
+==========================================
+
+
+	HERCULES SCREEN
+			ESCAPE
+
+
+ISPF SCREEN/PANEL/PAGE
+
+MENU BAR /ACTION BARD
+
+COMMAND LINE
+
+
+	PAGE UP	- F7  - SCROLL UP
+ 	PAGE DOWN - F8 SCROLL DOWN
+	F3	- GOING BACK TO PREVIOUS SCREEN
+	F12:CANCEL
+
+
+PRIMARY COMMANDS
+	PFSHOW OFF  :TO HIDE THE FUNCTIONS OPTIONS/ROWS
+	PFSHOW ON 	: TO DISPLAY THE FUNCTION KEYS ON SCREEN
+	COLOR		: TO CHANGE THE DEFAULT COLORS TO CUSTOMIZED COLORS
+	KEYS
+		F3:BACK/EXIT
+		F5:RFIND
+		F7:UP	
+		F8:DOWN
+		F9:SWAP	THE SCREEN
+		F10:LEFT
+		F11:RIGHT
+		F12:CANCEL
+	LEFT:
+		F1
+		F2
+		F4
+	START
+	START 0
+	SWAP LIST
+	SWAPBAR ON	:TO DISPLAY NAMES ON THE BOTTOM OF THE PAGE/PANEL
+	SWAPBAR OFF
+========================================================
+			DATASET 
+			=========================
+NOTEPAD .. FOLDER
+
+NOTEPAD ---- PS/FLAT FILE/SEQUENTIAL FILE
+
+FOLDER	---PDS(COLLECTION OF NOTEPADS --COLLECTION OF MEMBERS)
+	MEMBER IS ALMOST EQUAL TO SEQUENTIAL FILE.
+
+NON-VSAM FILES/DATASETS
+	PS/FLAT FILE/SEQUENTIAL FILE
+	PDS
+	
+	Write ,Read,Update	
+	Delete is not possible
+	Not allowed In CICS application program
+	Transaction files
+	Can store on TAPE,DASD
+	Duplicate data is allowed
+
+VSAM DATASETS
+	KSDS
+	ESDS
+	RRDS
+	LDS
+	Write , Read, Update, Delete 
+	Restrict duplicates
+	You can use in online application programs
+	Master file
+	Resides on DASD only
+	Unique data
+
+
+DBMS
+	---DBMS
+		
+	SQL COMMANDS
+
+	HANDS-ON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

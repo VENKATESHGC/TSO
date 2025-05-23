@@ -1,0 +1,70 @@
+14th May - No session...
+SWAP BAR,SWAP LIST
+
+
+2
+
+VENKATA.B20.FILE1   
+VENKATA.B20.FILE2   
+VENKATA.B20.FILE3   
+VENKATA.B20.FILE4   
+VENKATA.B20.PDS1    
+VENKATA.B20.PDS2    
+VENKATA.B20.PDS3    
+VENKATA.B20.PDS4    
+
+
+
+
+3.2
+
+3.3
+
+3.4
+
+3.5
+
+
+12 SuperC      Compare data sets                             (Standard Dialo
+13 SuperCE     Compare data sets Extended                    (Extended Dialo
+14 Search-For  Search data sets for strings of data          (Standard Dialo
+15 Search-ForE Search data sets for strings of data Extended (Extended Dialo
+
+
+================================
+CATLG:
+	cataloged tables
+	
+UNCATLG
+	By default the file is not visible in 3.4	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

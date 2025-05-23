@@ -1,0 +1,33 @@
+Mainframe Developer Course i.e IBM Mainframe Technology
+
+1 Day - 1 Hour
+Modules
+1. TSO/ISPF	7 Days	- 10 Days
+2. JCL		10 Days - 13 Days
+3. VSAM		3 Days
+4. COBOL	20 Days - 25 Days
+5. DB2		10 Days - 13 Days
+6. CICS		13 Days - 16 Days
+==============================
+	63 Days training + 20 Hours Bonus videos (Interview questions, Advanced topics)
+
+9 PM IST - 10 PM IST
+Monday to Friday 
+
+Class notes
+Softcopy material
+Mainframe Server access 
+Videos if you miss the sessions only + Videos for important topics 
+	Not everyday
+
+================================================
+	Attend the sessions daily
+	Do hands-on 
+	Assignments
+	Case study/Mock project
+	Suggestions
+====================================
+	Crack the interview
+	Project 
+====================================================
+

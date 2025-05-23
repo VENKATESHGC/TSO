@@ -1,0 +1,133 @@
+NON-VSAM DATASETS
+	PS
+	PDS
+VSAM DATASETS
+	KSDS
+	ESDS
+	RRDS
+	LDS
+==============================
+PS
+	End users data such as Customers data, Insurance transactions, ATM transactions, AIRLINES RANSACTION, RETAIL (MORE ,DMART,TESCO,WALLMART) TRANSACTIONS..
+
+PDS
+	Write the programs such as COBOL, JCL, DB2,COPYBOOKS and Loadlibs
+==========================================================================
+Rules for dataset name
+	Length of dataset name is 44 characters
+	Dataset is divided into qualifiers
+	Each qualifier is separated by .
+	VENKATA.TSO.PS1			--------->VALID
+		3 QUALIFIERS
+		1ST QUALIFIER : VENKATA	- 7
+		2ND QUALIFIER LENGTH:3
+		3RD QUALIFIER LENGTH:3
+		TOTAL LENGTH IS 	:15	
+
+	VENKATAJCD.AB.PS1		--------->INVALID
+		VENKATAJCD		-----------QUALIFIER LENGTH:10
+		2nd qualifier: AB---2
+		3RD QUALIFIER	3
+		LENGTH 17
+What is qualifier/member name of pds and Rules of the qualifier/member name of PDS
+	Qualifier length is 1 to 8 characters
+	Qualifier can start with character(A-Z), SPECIAL CHARACTERS/NATIONAL CHARACTERS:@,#,$
+	Qualifier can end with numbers(0-9) or character(A-Z), SPECIAL CHARACTERS/NATIONAL CHARACTERS:@,#,$
+	
+============================================================================================
+	ALWAYS FIRST QUALIFIER SHOULD BE YOUR MAINFRAME ID
+	
+	X.Y.Z		VALID
+		LENGTH OF DATASET 5
+		HOW MANY QUALIFIERS:3
+		WHAT ARE THE QUALIFIERS	X	Y	 Z
+		HLQ	X
+		LLQ	Z	
+
+	VENKATA.B20.TSO		VALID
+		LENGTH: 15
+		QUALIFIERS: 3
+		QUALIFIERS: VENKATA, B20,TSO
+
+	VENKATA.1.X.Y.Z.A.B.C.P.Q.R		INVALID
+			2ND QUALIFIER IS STARTING WITH NUMBER
+
+
+
+	VENKATA.TESTDATAIP.INSUR	INVALID
+			2ND QUALIFIER LENGTH >8
+
+	A1234567.B1234567.C1234567.D1234567.E1234567
+			5 QUALIFIERSSpace units . . . . . TRACK        
+                                   
+Average record unit   	KB             
+Primary quantity  . . 1            
+Secondary quantity    1
+
+TOTAL STORAGE SPACE:1 KB + 1 KB(1024)
+		2KB    =2048	 BYTES      
+
+
+SPACE ABEND  
+
+Directory blocks  . . 0			ZERO INDICATES IT IS PS FILE
+
+
+Record format . . . . FB        	F
+			V	VB
+			
+
+	CNO	CTID	CTRANSACTIONAMOUNT	PHONENUMBER	
+	5	5	8	=========	10		18 BYTES FOR EACH RECORD/ROW
+
+
+
+
+SE37
+SD37
+SB37
+
+
+COMMAND LINE
+	REF	:REFRESH
+
+LINE COMMAND
+	I
+	S
+	R	RENAME
+
+PARAMETERS
+
+
+
+90000 BYTES
+
+ENO	5	ENAME	-20	EADD	- 30	ESAL	8
+
+	RECORD LENGTH 63
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

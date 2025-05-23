@@ -1,0 +1,52 @@
+PDS 
+	Programs
+	Copybooks
+	Loadlib
+Members
+VIEW
+EDIT
+
+
+RECORD FORMATS:
+	FB
+	VB
+	F
+	V
+	U
+- F (Fixed): Each record has a fixed length, and one physical block on disk equals one logical record.
+- FB (Fixed Blocked): Multiple fixed-length logical records are grouped into a single physical block for efficiency.
+- V (Variable): Each record has a variable length, with a Record Descriptor Word (RDW) indicating its size.
+- VB (Variable Blocked): Several variable-length records are stored in one physical block, with a Block Descriptor Word (BDW) at the beginning.
+- U (Undefined): No predefined structure; typically used for executable modules.
+These formats influence performance, storage efficiency, and compatibility with various applications. You can find more details on IBM's documentation.
+Would you like insights on how these formats impact mainframe performance or specific use cases?
+	
+
+Directory blocks  . . 3       HOW MANY MEMBERS WE CAN CREATE IN A PDS
+		(DB * 6) - 1)
+		(3 * 6) - 1 = 17 MEMBERS
+
+DIRECTORY BLOCK : 1
+		(1 * 6) - 1= 5
+
+Directory blocks  . . 6
+		(6 * 6) - 1 = 35
+
+
+QUALIFIERS
+	1 - 8 CHARACTERS
+	CHARACTER ,# , $, @
+	Have characters,numbers, special characters
+
+
+
+REP .ZF .ZL M99		M99 CREATED
+
+
+REP .ZF .ZL M99		REPLACE THE DATA AS M99
+
+
+CREATE .ZF .ZL M88		MEMBER WILL BE CREATED WITH THE DATA
+
+CREATE .ZF .ZL M88		M88 IS EXISTING 		
+

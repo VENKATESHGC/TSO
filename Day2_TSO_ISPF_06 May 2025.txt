@@ -1,0 +1,159 @@
+22, 23  5th June
+
+Coming guidelines 
+	mftrngrequest@gmail.com	Before the session
+	
+
+Session guidelines
+Soft copy materials location
+Mainframe configuration video
+
+Previous batches TSO/ISPF video
+
+Mainframe ID
+Yet to share the password
+=============================================
+TSO/ISPF
+=============================================
+Introduction to Mainframe
+What is Mainframe
+
+Differences Between Mainframe and Windows
+How Mainframe is different compare other to Java/.Net/SAP
+Why still Mainframe is Existing?
+Who are using Mainframe Technology in real time?
+
+What is Mainframe?
+Mainframe is server or System 
+			
+
+System:
+	OS, Hardware, Processor
+Mainframe system:
+	IBM Hardware
+	MVS,Z/OS
+	Storage Device to store the data
+	Processor
+
+MIPS
+
+
+A mainframe system is a powerful, high-performance computing platform designed for handling vast amounts of data and processing large-scale transactions efficiently. 
+
+ATM
+
+Premium
+
+RAS
+		24 * 7 Days
+		365 Days
+	Reliable
+	These systems are known for their reliability, security, and scalability, making them ideal for mission-critical operations in industries like banking, insurance, healthcare, and government.
+
+Mainframes excel at batch processing and online transaction processing (OLTP), handling thousands or even millions of transactions per second. They support multiple users and applications simultaneously without performance degradation. IBM zSystems, such as the z/OS platform, are among the most widely used mainframe architectures.
+Given your expertise with legacy systems, particularly CICS, you might be familiar with how mainframes handle error processing, BMS macros, and session management. Would you like a deeper dive into any specific aspects, like system internals, security mechanisms, or modernization approaches?
+
+
+
+z/OS, z/VSE, z/VM, Linux on Z
+Large-scale, high-reliability hardware with specialized architecture
+High-performance processors like IBM z15, designed for massive parallelism
+Can support terabytes of memory for enterprise workloads
+DASD	- DIRECT ACCESS STORAGE DEVICE
+TAPE	:ANOTHER TYPE OF STORAGE DEVICE
+
+
+
+How Mainframe is different compare other to Java/.Net/SAP
+
+Mainframe to develop business applications such Insurance application, Bank application
+Mainframe
+	Hard ware
+	Mainframe-Server
+	DB2/VSAM
+	CICS TO ONLINE SCREENS
+Java	--Oracle
+	Deploying the application,tomcat
+	Web pages using HTML,CSS
+
+Why still Mainframe is Existing?
+
+Mainframe technology is widely used across various industries for mission-critical operations. Here are some organizations that rely on mainframes in real time:  
+
+### **Banking & Finance**  
+- Bank of America  
+- JPMorgan Chase  
+- Barclays  
+- Wells Fargo  
+- Citibank  
+
+### **Insurance**  
+- AIG  
+- Allianz  
+- Prudential  
+- MetLife  
+- Blue Cross Blue Shield  
+
+### **Retail**  
+- Walmart  
+- Amazon  
+- Target  
+- Costco  
+- Tesco  
+
+### **Healthcare**  
+- UnitedHealth Group  
+- Mayo Clinic  
+- Kaiser Permanente  
+- CVS Health  
+- Anthem  
+
+### **Government & Public Sector**  
+- IRS (Internal Revenue Service)  
+- Social Security Administration  
+- NASA  
+- U.S. Department of Defense  
+- Indian Railways  
+
+### **Travel & Transportation**  
+- American Airlines  
+- British Airways  
+- Lufthansa  
+- FedEx  
+- UPS  
+
+Mainframes continue to be essential for handling large-scale transactions, ensuring security, and maintaining high availability. Given your expertise in **legacy systems and mainframe troubleshooting**, you might find it interesting how these industries integrate **modern AI and cloud technologies** with mainframes. Want to explore that further?
+=================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

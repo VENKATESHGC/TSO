@@ -1,0 +1,87 @@
+CNO	CNAME(10)	CADD(10)
+5	
+
+E - EDIT MODE
+
+
+
+
+ EDIT       VENKATA.B20.FILE2                          
+ Command ===>                                          
+ ****** ***************************** Top of Data *****
+ ****** **************************** Bottom of Data ***
+                                                       
+INSIDE FILE(SEQUENTIAL FILE OR MEMBER OF PDS)
+
+PRIMARY COMMANDS
+COLS
+NUM OFF : IT IS APPLICABLE FOR FURTHER STEPS
+caps on: convert into upper case automatically then we need to type caps on
+RES
+SAVE	TO SAVE THE CHANGES
+CANCEL
+
+
+LINE COMMANDS
+D	:DELETE
+D3
+
+D100
+
+D2000
+
+I	:INSERT A RECORD
+
+UC
+R	REPEAT
+R2	REPEAT SAME LINE 2 TIMES
+RR
+RR	BLOCK REPEAT
+
+RR
+RR3
+
+C	A/B
+	COPY AFTER/BEFORE
+
+
+M	A/B
+MM..MM 	A/B
+
+CC..CC	A/B
+	COPY THE BLOCK DATA AFTER/BEFORE
+
+
+
+F1
+F2
+F3
+F7
+F8
+F9
+F10
+F11
+F12
+SHIVAPRASADHYDERABAD
+RAMMUMBAI
+VENKATESWARLUSHARMACHENNAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
